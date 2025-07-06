@@ -44,7 +44,6 @@ def copy_password():
     else:
         messagebox.showwarning("No Password", "Generate a password first.")
 
-# ---------------- GUI Setup ---------------- #
 root = tk.Tk()
 root.title("Password Generator")
 root.geometry("400x350")
